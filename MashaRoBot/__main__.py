@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hᴇʏ I'ᴍ Jᴀʀᴠɪs
 I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ *📚ᴄᴏᴍᴍᴀɴᴅs* ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
-⚡𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫⚡[🔥𝗧𝗛𝗘๛➢ıllıllı𝗥𝗢𝗬𝗔𝗟乛𝗞𝗜𝗡𝗚™🇮🇳](https://t.me/THE_ROYAL_KIING) 😎 [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+⚡𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫⚡ @XD_ANONYMOUS [😎](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
 """
 
 buttons = [
@@ -85,21 +85,21 @@ buttons = [
             text="➕️ ᴀᴅᴅ ᴊᴀʀᴠɪs ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/JARVIS_SECURITY_BOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="masha_"),
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"),
+        InlineKeyboardButton(text="📜 ᴀʙᴏᴜᴛ 📜", callback_data="masha_"),
+        InlineKeyboardButton(text="🔥 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs 🔥", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴊᴀʀᴠɪs ʟᴏɢs", url="t.me/JARVIS_GBAN_APPEAL"),
+            text="🎬 ᴊᴀʀᴠɪs ʟᴏɢs 🎬", url="t.me/JARVIS_GBAN_APPEAL"),
         InlineKeyboardButton(
-            text="sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/JARVIS_BOT_SUPPORT"),
+            text="🎯 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎯", url="https://t.me/JARVIS_BOT_SUPPORT"),
     ],
     [  
-        InlineKeyboardButton(text="ᴊᴀʀᴠɪs ᴅᴇᴠs", url="https://t.me/JARVIS_BOT_DEVS"
+        InlineKeyboardButton(text="💻 ᴊᴀʀᴠɪs ᴅᴇᴠs 💻", url="https://t.me/JARVIS_BOT_DEVS"
     ),
     ], 
     [
-        InlineKeyboardButton(text="ᴊᴏɪɴ ғᴏʀ ᴜᴘᴅᴀᴛᴇs", url="https://t.me/JARVIS_BOT_UPDATES"
+        InlineKeyboardButton(text="🎭 ᴊᴏɪɴ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 🎭", url="https://t.me/JARVIS_BOT_UPDATES"
     ), 
     ],
     
