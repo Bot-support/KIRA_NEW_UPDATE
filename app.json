@@ -1,6 +1,6 @@
 {
-      "name": "LOVELY",
-      "description": "Telegram group management bot.",
+      "name": "JARVIS_SECURITY_BOT",
+      "description": "ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,7 +8,7 @@
          "manager",
          "Emcee"
       ],   
-   "repository": "https://github.com/attitudeking1/EMCEE",
+   "repository": "https://github.com/LEGEND-Xxxxx/JARVIS-SECURITY-BOT",
    "addons": [
       {
          "options": {
