@@ -74,50 +74,38 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`**🅷🅴🅻🅻🅾️ {}, ᴍʏ ɴᴀᴍᴇ ɪs *{}*!\n 
-ᴘᴇᴏᴘʟᴇ's sᴏᴍᴇᴛɪᴍᴇ ғɪɴᴅ *ʜᴀʀᴅ* ᴛᴏ ᴍᴀɴᴀɢᴇ ᴛʜᴇɪʀ ɢʀᴏᴜᴘs, *sᴏ ɪ ᴀᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ*.\n
-`ᴍʏ Mⱥຮteℝ🔥 @XD_ANONYMOUS.
- 
-ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ᴡɪᴛʜ /help.
+`ʜᴇʟʟᴏ ᴍʏ ɴᴀᴍᴇ ɪs` [🔥𝘿𝙀𝙑𝙄𝙇🔥](https://telegra.ph/file/4e49e42ec683e61f4fc7a.jpg) 
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` *❓ᴄᴏᴍᴍᴀɴᴅs❔* `ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ.
+**ᴅᴇᴠɪʟ ɪɴᴅᴏ 🔥** @DEVIL_OP_ROBOT_INFO.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD JARVIS TO YOUR GROUP ➕️", url="t.me/JARVIS_SECURITY_BOT?startgroup=true"),
+            text="🔥 ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 🔥", url="t.me/DEVIL_OP_ROBOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📜 ABOUT 📜", callback_data="masha_"),
-        InlineKeyboardButton(text="🔥 HELP AND COMMANDS🔥", callback_data="help_back"),
+        InlineKeyboardButton(text="👾 ᴀʙᴏᴜᴛ 👾", callback_data="masha_"),
+        InlineKeyboardButton(text="⚠ ᴄᴏᴍᴍᴇɴᴅs ⚠", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🎬 JARVIS LOGS 🎬", url="t.me/JARVIS_GBAN_APPEAL"),
+            text="💔 sᴏᴜʀᴄᴇ 💔", url="t.me/devil_op_robot_repo"),
         InlineKeyboardButton(
-            text="🎯 SUPPORT GROUP 🎯", url="https://t.me/JARVIS_BOT_SUPPORT"),
+            text="🏓 sᴜᴘᴘᴏʀᴛ ɢʀᴘ 🏓", url="https://t.me/devil_op_robot_support"),
     ],
     [  
-        InlineKeyboardButton(text="💻 JARVIS DEVS 💻", url="https://t.me/JARVIS_BOT_DEVS"
+        InlineKeyboardButton(text="😎 ᴍʏ ᴏᴡɴᴇʀ 😎", url="t.me/LEGEND_XXXXX"
     ),
     ], 
-    [
-        InlineKeyboardButton(text="🎭 JOIN FOR UPDATES 🎭", url="https://t.me/JARVIS_BOT_UPDATES"
-    ), 
-    ],
-    
 ]
 
 
-
 HELP_STRINGS = """
-✘*ᴊᴀʀᴠɪs ᴄᴏᴍᴇs ᴡɪᴛʜ ᴍᴀɴʏ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs ɪɴ ɪᴛ*✘
-✘*ᴄʜᴇᴄᴋ ᴀʟʟ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴇᴠᴇʀʏ ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴊᴀʀᴠɪs*✘
-✘ *ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ* `/` *ᴏʀ* `!`.
-✘ *ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ɪssᴜᴇ ᴏʀ ғɪɴᴅ ᴀɴʏ ʙᴜɢs ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʀᴇᴘᴏʀᴛ ɪᴛ ɪɴ @JARVIS_BOT_SUPPORT* [.](https://telegra.ph/file/7b5feafd13b9fbc6a24d1.jpg)
-"""
+*『𝗛𝗘𝗟𝗣 𝗕𝗨𝗧𝗧𝗢𝗡𝗦 𝗛𝗘𝗥𝗘』*"""
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """ɴᴏ ɴᴇᴇᴅ.. ɪ'ᴍ ʀɪᴄʜ 😎"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,7 +215,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "ɪ'ᴍ ᴀᴡᴀᴋᴇ ᴀʟʀᴇᴀᴅʏ!\n<b>ʜᴀᴠᴇɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ:</b> <code>{}</code>".format(
+            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -362,22 +350,22 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ ɪ'ᴍ *ᴊᴀʀᴠɪs*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ.
+            text=""" ℹ️ ɪ'ᴍ *😈𝘿𝙀𝙑𝙄𝙇😈*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ.
                  ❍ ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.
                  ❍ ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.
                  ❍ ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ.
                  ❍ ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.
                  ❍ ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.
                  ❍ ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs
-                 \ɴ_ᴇᴍᴄᴇᴇ's ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ɢɴᴜ ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ ᴠ𝟹.𝟶_
-                  [ᴍʏ ᴍᴀsᴛᴇʀ 💻](https://t.me/THE_ROYAL_KIING).
-                 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴊᴀʀᴠɪs, ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ @JARVIS_BOT_SUPPORT.""",
+                 \n_ᴍᴀsʜᴀ's ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ɢɴᴜ ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ ᴠ𝟹.𝟶_
+                 ʜᴇʀᴇ ɪs ᴛʜᴇ [💾ʀᴇᴘᴏsɪᴛᴏʀʏ](https://t.me/devil_op_robot_repo).
+                 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴ ᴀʙᴏᴜᴛ (ᴅᴇᴠɪʟ) , ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ @DEVIL_OP_ROBOT_SUPPORT.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʙᴀᴄᴋ 👻", callback_data="masha_back")
+                    InlineKeyboardButton(text="🔥𝗕𝗔𝗖𝗞🔥", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -397,14 +385,14 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" ʜɪ..🤗 ɪ'ᴍ *ᴊᴀʀᴠɪs🔥*
-                 \n𝙈𝙔 𝙈𝘼𝙎𝙏𝙀𝙍 [🔥𝗧𝗛𝗘๛➢𝗥𝗢𝗬𝗔𝗟乛𝗞𝗜𝗡𝗚™🇮🇳](https://t.me/THE_ROYAL_KIING) .""",
+            text=""" ʜɪ..👾 ɪ'ᴍ *🔥𝘿𝙀𝙑𝙄𝙇🔥*
+                 \nHere is the [💔 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💔](https://t.me/DEVIL_OP_ROBOT_REPO) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝙂𝙊 𝘽𝘼𝘾𝙆 👻", callback_data="source_back")
+                    InlineKeyboardButton(text="👾𝗚𝗢 𝗕𝗔𝗖𝗞👾", callback_data="source_back")
                  ]
                 ]
             ),
@@ -433,8 +421,8 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🔥 𝙃𝙀𝙇𝙋 🔥",
-                                url="t.me/JARVIS_SECURITY_BOT?start=ghelp_{}".format(
+                                text="🔥 𝗛𝗘𝗟𝗣 🔥",
+                                url="t.me/DEVIL_OP_ROBOT?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
@@ -444,13 +432,13 @@ def get_help(update: Update, context: CallbackContext):
             )
             return
         update.effective_message.reply_text(
-            "ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴘᴏssɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs.",
+            "Contact me in PM to get the list of possible commands.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="🔥 𝙃𝙀𝙇𝙋 🔥",
-                            url="t.me/JARVIS_SECURITY_BOT?start=help".format(context.bot.username),
+                            text="💔 𝗛𝗘𝗟𝗣 💔",
+                            url="t.me/DEVIL_OP_ROBOT?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -470,7 +458,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ʙᴀᴄᴋ 🔥", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
             ),
         )
 
@@ -494,7 +482,7 @@ def send_settings(chat_id, user_id, user=False):
         else:
             dispatcher.bot.send_message(
                 user_id,
-                "sᴇᴇᴍs ʟɪᴋᴇ ᴛʜᴇʀᴇ ᴀʀᴇɴ'ᴛ ᴀɴʏ ᴜsᴇʀ sᴘᴇᴄɪғɪᴄ sᴇᴛᴛɪɴɢs ᴀᴠᴀɪʟᴀʙʟᴇ :'(",
+                "Seems like there aren't any user specific settings available :'(",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -503,7 +491,7 @@ def send_settings(chat_id, user_id, user=False):
             chat_name = dispatcher.bot.getChat(chat_id).title
             dispatcher.bot.send_message(
                 user_id,
-                text="ᴡʜɪᴄʜ ᴍᴏᴅᴜʟᴇ ᴡᴏᴜʟᴅ ʏᴏᴜ ʟɪᴋᴇ ᴛᴏ ᴄʜᴇᴄᴋ {}'s sᴇᴛᴛɪɴɢs ғᴏʀ?".format(
+                text="Which module would you like to check {}'s settings for?".format(
                     chat_name
                 ),
                 reply_markup=InlineKeyboardMarkup(
@@ -513,8 +501,8 @@ def send_settings(chat_id, user_id, user=False):
         else:
             dispatcher.bot.send_message(
                 user_id,
-                "sᴇᴇᴍs ʟɪᴋᴇ ᴛʜᴇʀᴇ ᴀʀᴇɴ'ᴛ ᴀɴʏ ᴄʜᴀᴛ sᴇᴛᴛɪɴɢs ᴀᴠᴀɪʟᴀʙʟᴇ :'(\nsᴇɴᴅ ᴛʜɪs "
-                "ɪɴ ᴀ ɢʀᴏᴜᴘ ᴄʜᴀᴛ ʏᴏᴜ'ʀᴇ ᴀᴅᴍɪɴ ɪɴ ᴛᴏ ғɪɴᴅ ɪᴛs ᴄᴜʀʀᴇɴᴛ sᴇᴛᴛɪɴɢs!",
+                "𝗦𝗲𝗲𝗺𝘀 𝗹𝗶𝗸𝗲 𝘁𝗵𝗲𝗿𝗲 𝗮𝗿𝗲𝗻'𝘁 𝗮𝗻𝘆 𝗰𝗵𝗮𝘁 𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀 𝗮𝘃𝗮𝗶𝗹𝗮𝗯𝗹𝗲 :'(\𝗻𝗦𝗲𝗻𝗱 𝘁𝗵𝗶𝘀 "
+                "𝗶𝗻 𝗮 𝗴𝗿𝗼𝘂𝗽 𝗰𝗵𝗮𝘁 𝘆𝗼𝘂'𝗿𝗲 𝗮𝗱𝗺𝗶𝗻 𝗶𝗻 𝘁𝗼 𝗳𝗶𝗻𝗱 𝗶𝘁𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝘀𝗲𝘁𝘁𝗶𝗻𝗴𝘀!",
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -543,7 +531,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🔥 𝘽𝘼𝘾𝙆 🔥",
+                                text="𝗕𝗔𝗖𝗞",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -583,8 +571,8 @@ def settings_button(update: Update, context: CallbackContext):
             chat_id = back_match.group(1)
             chat = bot.get_chat(chat_id)
             query.message.reply_text(
-                text="ʜɪ ᴛʜᴇʀᴇ! ᴛʜᴇʀᴇ ᴀʀᴇ ǫᴜɪᴛᴇ ᴀ ғᴇᴡ sᴇᴛᴛɪɴɢs ғᴏʀ {} - ɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ᴘɪᴄᴋ ᴡʜᴀᴛ "
-                "ʏᴏᴜ'ʀᴇ ɪɴᴛᴇʀᴇsᴛᴇᴅ ɪɴ.".format(escape_markdown(chat.title)),
+                text="Hi there! There are quite a few settings for {} - go ahead and pick what "
+                "you're interested in.".format(escape_markdown(chat.title)),
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
                     paginate_modules(0, CHAT_SETTINGS, "stngs", chat=chat_id)
@@ -612,15 +600,15 @@ def get_settings(update: Update, context: CallbackContext):
     # ONLY send settings in PM
     if chat.type != chat.PRIVATE:
         if is_user_admin(chat, user.id):
-            text = "Click here to get this chat's settings, as well as yours."
+            text = "𝐂𝐥𝐢𝐜𝐤 𝐡𝐞𝐫𝐞 𝐭𝐨 𝐠𝐞𝐭 𝐭𝐡𝐢𝐬 𝐜𝐡𝐚𝐭'𝐬 𝐬𝐞𝐭𝐭𝐢𝐧𝐠𝐬, 𝐚𝐬 𝐰𝐞𝐥𝐥 𝐚𝐬 𝐲𝐨𝐮𝐫𝐬."
             msg.reply_text(
                 text,
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton(
-                                text="🔥 𝙎𝙀𝙏𝙏𝙄𝙉𝙂𝙎 🔥",
-                                url="t.me/JARVIS_SECURITY_BOT?start=stngs_{}".format(
+                                text="💔 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 💔",
+                                url="t.me/DEVIL_OP_ROBOT?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
                             )
@@ -629,7 +617,7 @@ def get_settings(update: Update, context: CallbackContext):
                 ),
             )
         else:
-            text = "Click here to check your settings."
+            text = "𝘾𝙡𝙞𝙘𝙠 𝙝𝙚𝙧𝙚 𝙩𝙤 𝙘𝙝𝙚𝙘𝙠 𝙮𝙤𝙪𝙧 𝙨𝙚𝙩𝙩𝙞𝙣𝙜𝙨."
 
     else:
         send_settings(chat.id, user.id, True)
@@ -645,10 +633,10 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1677365574 and DONATION_LINK:
+        if OWNER_ID != 1649730554 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
-                "[here]({})".format(DONATION_LINK),
+                "[𝗛𝗘𝗥𝗘](https://t.me/Legend_xxxxx)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
 
@@ -693,7 +681,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@JARVIS_BOT_SUPPORT", "ᴊᴀʀᴠɪs ɪs ʙᴀᴄᴋ ᴡɪᴛʜ ᴇxᴘʟᴏsɪᴠᴇ ғᴇᴀᴛᴜʀᴇs.🔥")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "😈 𝗜 𝗔𝗠 𝗔 𝗗𝗘𝗩𝗜𝗟 𝗢𝗙 𝗠𝗬 𝗪𝗢𝗥𝗟𝗗 😈")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
