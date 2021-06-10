@@ -74,32 +74,32 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ ᴍʏ ɴᴀᴍᴇ ɪs` [ᴊᴀʀᴠɪs](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+`ʜᴇʟʟᴏ ᴍʏ ɴᴀᴍᴇ ɪs` [ᴊᴀʀᴠɪs](https://telegra.ph/file/7b5feafd13b9fbc6a24d1.jpg) 
 `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` *📚ᴄᴏᴍᴍᴀɴᴅs* `ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ.
-**🔥 ᴍʏ ᴍᴀsᴛᴇʀ 🔥** @xd_anonymous.` 
+**🔥ᴍʏ ᴍᴀsᴛᴇʀ🔥** @xd_anonymous.` 
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ᴀᴅᴅ ᴊᴀʀᴠɪs ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕️", url="t.me/JARVIS_SECURITY_BOT?startgroup=true"),
+            text="➕️ ADD JARVIS TO YOUR GROUP ➕️", url="t.me/JARVIS_SECURITY_BOT?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📜 ᴀʙᴏᴜᴛ 📜", callback_data="masha_"),
-        InlineKeyboardButton(text="🔥 ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs 🔥", callback_data="help_back"),
+        InlineKeyboardButton(text="📜 ABOUT 📜", callback_data="masha_"),
+        InlineKeyboardButton(text="🔥 HELP AND COMMANDS🔥", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="🎬 ᴊᴀʀᴠɪs ʟᴏɢs 🎬", url="t.me/JARVIS_GBAN_APPEAL"),
+            text="🎬 JARVIS LOGS 🎬", url="t.me/JARVIS_GBAN_APPEAL"),
         InlineKeyboardButton(
-            text="🎯 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🎯", url="https://t.me/JARVIS_BOT_SUPPORT"),
+            text="🎯 SUPPORT GROUP 🎯", url="https://t.me/JARVIS_BOT_SUPPORT"),
     ],
     [  
-        InlineKeyboardButton(text="💻 ᴊᴀʀᴠɪs ᴅᴇᴠs 💻", url="https://t.me/JARVIS_BOT_DEVS"
+        InlineKeyboardButton(text="💻 JARVIS DEVS 💻", url="https://t.me/JARVIS_BOT_DEVS"
     ),
     ], 
     [
-        InlineKeyboardButton(text="🎭 ᴊᴏɪɴ ғᴏʀ ᴜᴘᴅᴀᴛᴇs 🎭", url="https://t.me/JARVIS_BOT_UPDATES"
+        InlineKeyboardButton(text="🎭 JOIN FOR UPDATES 🎭", url="https://t.me/JARVIS_BOT_UPDATES"
     ), 
     ],
     
@@ -111,7 +111,7 @@ HELP_STRINGS = """
 ✘*ᴊᴀʀᴠɪs ᴄᴏᴍᴇs ᴡɪᴛʜ ᴍᴀɴʏ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs ɪɴ ɪᴛ*✘
 ✘*ᴄʜᴇᴄᴋ ᴀʟʟ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴘʟᴏʀᴇ ᴇᴠᴇʀʏ ᴄᴏᴍᴍᴀɴᴅs ᴏғ ᴊᴀʀᴠɪs*✘
 ✘ *ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ* `/` *ᴏʀ* `!`.
-✘ *ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ɪssᴜᴇ ᴏʀ ғɪɴᴅ ᴀɴʏ ʙᴜɢs ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʀᴇᴘᴏʀᴛ ɪᴛ ɪɴ @JARVIS_BOT_SUPPORT* [.](https://telegra.ph/file/09d767a223a1def499b38.jpg)
+✘ *ɪғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ɪssᴜᴇ ᴏʀ ғɪɴᴅ ᴀɴʏ ʙᴜɢs ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ʀᴇᴘᴏʀᴛ ɪᴛ ɪɴ @JARVIS_BOT_SUPPORT* [.](https://telegra.ph/file/7b5feafd13b9fbc6a24d1.jpg)
 """
 
 
