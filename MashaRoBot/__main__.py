@@ -76,7 +76,7 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
 Hᴇʏ I'ᴍ Jᴀʀᴠɪs
 I'ᴀᴍ ᴀɴ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢɪɴɢ ʀᴏʙᴏᴛ! Cʟɪᴄᴋ *📚ᴄᴏᴍᴍᴀɴᴅs* ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ᴇxᴏʟᴏʀᴇ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ғᴜɴᴄᴛɪᴏɴs.
-⚡𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫⚡ @XD_ANONYMOUS [😎](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
+⚡𝐌𝐲 𝐌𝐚𝐬𝐭𝐞𝐫⚡ @XD_ANONYMOUS 😎 [.](https://telegra.ph/file/bf5222d53da56fe688603.jpg) 
 """
 
 buttons = [
