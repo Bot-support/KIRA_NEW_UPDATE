@@ -74,30 +74,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`ʜᴇʟʟᴏ ᴍʏ ɴᴀᴍᴇ ɪs` [ᴊᴀʀᴠɪs🔥](https://telegra.ph/file/1a3c713f11500b7522a0e.jpg) 
-`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ` *❓ᴄᴏᴍᴍᴀɴᴅs❔* `ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ.
-**ᴍʏ ᴏᴡɴᴇʀ 🔥** @xd_anonymous.` 
+`𝙷𝚎𝚕𝚕𝚘` [💕](https://telegra.ph/file/d5ce1df9c6035aee0b457.jpg) `Hᴇʏ Sɪʀ I Aᴍ ` *Tᴀɴʏᴀ*
+`I'ᴍ Hᴇʀᴇ Tᴏ Hᴇʟᴩ Yᴏᴜ Iɴ Mᴀɴᴀɢɪɴɢ Yᴏᴜʀ Gʀᴏᴜᴩ! Hɪᴛ` *Fᴜɴᴄᴛɪᴏɴs😈*` 
 """
 
-buttons = [
-    [
+buttons = [    
+      [
+        InlineKeyboardButton(text="Aʙᴏᴜᴛ Mᴇ😈", callback_data="masha_"),
+        InlineKeyboardButton(text="Fᴜɴᴄᴛɪᴏɴs📚", callback_data="help_back"),
+      ],
+      [
+        InlineKeyboardButton(text="Sᴜᴩᴩᴏʀᴛ⚠️",url="https://t.me/TanyaSupportOfficial"),
+        InlineKeyboardButton(text="Uᴩᴅᴀᴛᴇs🗞️",url="https://t.me/TanyaNewsOfficial")
+      ],
+      [
         InlineKeyboardButton(
-            text="🔥 ᴀᴅᴅ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 🔥", url="t.me/DEVIL_OP_ROBOT?startgroup=true"),
-    ],
-    [
-        InlineKeyboardButton(text="👾 ᴀʙᴏᴜᴛ 👾", callback_data="masha_"),
-        InlineKeyboardButton(text="⚠ ᴄᴏᴍᴍᴇɴᴅs ⚠", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="💔 ᴊᴀʀᴠɪs ʟᴏɢs 💔", url="t.me/jarvis_gban_appeal"),
-        InlineKeyboardButton(
-            text="🏓 sᴜᴘᴘᴏʀᴛ ɢʀᴘ 🏓", url="https://t.me/jarvis_bot_support"),
-    ],
-    [  
-        InlineKeyboardButton(text="🇮🇳 ᴊᴀʀᴠɪs ᴅᴇᴠs 🇮🇳", url="t.me/Jarvis_bot_devs"
-    ),
-    ], 
+            text="💢Sᴜᴍᴍᴏɴ Mᴇ Tᴏ Gʀᴏᴜᴩs💢", url="t.me/TanyaSecurityBot?startgroup=true"),
+      ]
 ]
 
 
@@ -350,16 +343,9 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ ɪ'ᴍ *ᴊᴀʀᴠɪs🔥*, ᴀ ᴘᴏᴡᴇʀғᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ.
-                 ❍ ɪ ᴄᴀɴ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs.
-                 ❍ ɪ ᴄᴀɴ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴄᴜsᴛᴏᴍɪᴢᴀʙʟᴇ ᴡᴇʟᴄᴏᴍᴇ ᴍᴇssᴀɢᴇs ᴀɴᴅ ᴇᴠᴇɴ sᴇᴛ ᴀ ɢʀᴏᴜᴘ's ʀᴜʟᴇs.
-                 ❍ ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ғʟᴏᴏᴅ sʏsᴛᴇᴍ.
-                 ❍ ɪ ᴄᴀɴ ᴡᴀʀɴ ᴜsᴇʀs ᴜɴᴛɪʟ ᴛʜᴇʏ ʀᴇᴀᴄʜ ᴍᴀx ᴡᴀʀɴs, ᴡɪᴛʜ ᴇᴀᴄʜ ᴘʀᴇᴅᴇғɪɴᴇᴅ ᴀᴄᴛɪᴏɴs sᴜᴄʜ ᴀs ʙᴀɴ, ᴍᴜᴛᴇ, ᴋɪᴄᴋ, ᴇᴛᴄ.
-                 ❍ ɪ ʜᴀᴠᴇ ᴀ ɴᴏᴛᴇ ᴋᴇᴇᴘɪɴɢ sʏsᴛᴇᴍ, ʙʟᴀᴄᴋʟɪsᴛs, ᴀɴᴅ ᴇᴠᴇɴ ᴘʀᴇᴅᴇᴛᴇʀᴍɪɴᴇᴅ ʀᴇᴘʟɪᴇs ᴏɴ ᴄᴇʀᴛᴀɪɴ ᴋᴇʏᴡᴏʀᴅs.
-                 ❍ ɪ ᴄʜᴇᴄᴋ ғᴏʀ ᴀᴅᴍɪɴs' ᴘᴇʀᴍɪssɪᴏɴs ʙᴇғᴏʀᴇ ᴇxᴇᴄᴜᴛɪɴɢ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴍᴏʀᴇ sᴛᴜғғs
-                 \n_ᴍᴀsʜᴀ's ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ ɢɴᴜ ɢᴇɴᴇʀᴀʟ ᴘᴜʙʟɪᴄ ʟɪᴄᴇɴsᴇ ᴠ𝟹.𝟶_
-                 ʜᴇʀᴇ ɪs ᴛʜᴇ [💻 ᴍʏ ᴍᴀsᴛᴇʀ 💻](https://t.me/THE_ROYAL_KIING).
-                 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴ ᴀʙᴏᴜᴛ (ᴅᴇᴠɪʟ) , ʟᴇᴛ ᴜs ᴋɴᴏᴡ ᴀᴛ [ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ](t.me/jarvis_bot_support.""",
+            text="""
+**Aʙᴏᴜᴛ Mᴇ**\n\nMʏ Nᴀᴍᴇ Is Tᴀɴʏᴀ  👰, A Pᴏᴡᴇʀfᴜʟ Gʀᴏᴜᴩ Mᴀɴᴀɢᴇᴍᴇɴᴛ Bᴏᴛ Wʜᴏ Cᴀɴ Tᴀᴋᴇ Cᴀʀᴇ Oғ Yᴏᴜʀ Gʀᴏᴜᴩ Wɪᴛʜ Aᴜᴛᴏᴍᴀᴛᴇᴅ Sɪᴍᴩʟᴇ Rᴇɢᴜʟᴀʀ Aᴅᴍɪɴ Aᴄᴛɪᴏɴs\n\n**Mʏ Sᴏfᴛᴡᴀʀᴇ Vᴇʀsɪᴏɴ:**3.0.0\n**Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ:**1.21.1\n\n**Mʏ Dᴇᴠᴇʟᴏᴩᴇʀs:**\n• @SANKAR_OT\n• @SHERNI_QUEEN\n• @SLAYER_RITESH\n\n Aɴᴅ Fɪɴᴀʟʟʏ Tʜᴀɴᴋs Tᴏ Aʟʟ Sᴜᴩᴩᴏʀᴛs Dᴇᴠ Aɴᴅ Mᴇᴍʙᴇʀs Wʜᴏ Iɴᴄᴏᴜʀᴀɢᴇ Us🥰.
+                 """
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -385,8 +371,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" ʜɪ..👾 ɪ'ᴍ *🔥𝘿𝙀𝙑𝙄𝙇🔥*
-                 \nHere is the [💔 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💔](https://t.me/DEVIL_OP_ROBOT_REPO) .""",
+            text=""" ʜɪ..👾 ɪ'ᴍ *Tᴀɴʏᴀ🔥*
+                 \nHere is the [💔 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 💔](https://t.me/SANKAR_OT) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
@@ -422,7 +408,7 @@ def get_help(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="🔥 𝗛𝗘𝗟𝗣 🔥",
-                                url="t.me/JARVIS_SECURITY_BOT?start=ghelp_{}".format(
+                                url="t.me/TanyaSecurityBot?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
                             )
@@ -438,7 +424,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="💔 𝗛𝗘𝗟𝗣 💔",
-                            url="t.me/JARVIS_SECURITY_BOT?start=help".format(context.bot.username),
+                            url="t.me/TanyaSecurityBot?start=help".format(context.bot.username),
                         )
                     ]
                 ]
@@ -608,7 +594,7 @@ def get_settings(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="💔 𝗦𝗘𝗧𝗧𝗜𝗡𝗚𝗦 💔",
-                                url="t.me/JARVIS_SECURITY_BOT?start=stngs_{}".format(
+                                url="t.me/TanyaSecurityBot?start=stngs_{}".format(
                                     context.bot.username, chat.id
                                 ),
                             )
@@ -633,10 +619,10 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1649730554 and DONATION_LINK:
+        if OWNER_ID != 1607847356 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
-                "[𝗛𝗘𝗥𝗘](https://t.me/Legend_xxxxx)".format(DONATION_LINK),
+                "[𝗛𝗘𝗥𝗘](https://t.me/sankar_ot)".format(DONATION_LINK),
                 parse_mode=ParseMode.MARKDOWN,
             )
 
